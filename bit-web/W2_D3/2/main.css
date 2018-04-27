@@ -1,0 +1,46 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+#p1 {
+    text-transform: uppercase;
+    text-decoration: underline ;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+#p2 {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+
+#p3 {
+    text-align: center;
+}
+
+.links {
+    font-size: 25px;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: green ;
+}
+
+a:active {
+    color: blue;
+}
+
+#p1::first-line {
+    font-size: 30px;
+}
