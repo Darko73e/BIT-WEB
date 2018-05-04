@@ -1,0 +1,106 @@
+body {
+    font-family: 'RobotoRegular';
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+
+header {
+    background-image: url(./images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 250px;
+    /* text-align: center; */
+}
+
+ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0px auto;
+    /* padding: 20px; */
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: auto;
+}
+
+#readmore {
+    width: 30%;
+    line-height: 40px;
+    background-color: steelblue;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+
+#build {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    color: rgb(189, 139, 46);
+    /* width: 100px; */
+    font-size: 34px;
+    margin: auto;
+}
+
+#estate {
+    /* width: 100px; */
+    font-size: 34px;
+}
+
+#buildestate {
+    text-align: center;
+    margin: 20px;
+
+}
+
+nav {
+    margin: 20px auto;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+main>div {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    color:steelblue;
+    margin-left: 50px;
+}
+
+ul#image-marker {
+    list-style-image: url(./images/arrow_bullet.png);
+    margin-left: 50px;
+    
+}
+
+article {
+    position: relative;
+}
+
+article>img {
+    width: 95%;
+    left: 2.5%;
+    margin: 10px auto;
+    position: relative;
+}
